@@ -1,0 +1,12 @@
+    1  mkdir sandbox
+    2  touch sandbox/commands.txt
+    3  mkdir sandbox/dir1
+    4  mkdir sandbox/dir2
+    5  touch sandbox/dir2/file2.txt
+    6  touch sandbox/dir1/file1.txt
+    7  tree sandbox/
+   10  cp -r sandbox playpen
+   11  tree
+   12  mv playpen/commands.txt playpen/play.txt
+   13  tree
+   14  history >> playpen/play.txt 
