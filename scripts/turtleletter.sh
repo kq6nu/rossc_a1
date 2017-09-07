@@ -1,0 +1,6 @@
+rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, -6.1]'
+rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[5.0, 0.0, 0.0]' '[0.0, 0.0, 0.0]'
+rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[-2.5, 0.0, 0.0]' '[0.0, 0.0, 0.0]'
+rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[1.1, 0.0, 0.0]' '[0.0, 0.0, -2.0]'
+rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[4.0, 0.0, 0.0]' '[0.0, 0.0, 0.0]'
+rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[4.0, 0.0, 0.0]' '[0.0, 0.0, -2.1]'
